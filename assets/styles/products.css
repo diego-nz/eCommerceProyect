@@ -1,0 +1,118 @@
+.products{
+    display: block;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+}
+section{
+    margin: 70px 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section img{
+    --border: solid 10px;
+}
+
+section ul{
+    list-style-type: none;
+}
+section ul li{
+    text-align: left;
+        --border: solid 1px red;
+    margin-left: -15%;
+}
+.azul{
+    color: #065AB9;
+}
+.boxes{
+    --border: solid 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.left{
+    border: solid 1px;
+    margin-right: 5px;
+    padding-bottom: -10%;
+    box-shadow: 1px;
+}
+.right{
+    border: solid 1px;
+    margin-right: -5px;
+    --padding: 2px;
+}
+
+.leftBox ul li{
+    text-align: left;
+}
+.leftBox{
+    margin-left: -60px;
+    --margin-right: -30px;
+}
+
+.leftBoxRight{
+    border-left: solid 1px;
+    margin-left: 10px;
+}
+.rightBox{
+    margin-left: -40px;
+    margin-right: -30px;
+}
+
+.rightBoxRight{
+    border-left: solid 1px;
+    margin-left: 10px;
+}
+.left ul{
+    --border: solid 1px;
+    list-style: none;
+}
+.right ul {
+    --border: solid 1px;
+    list-style: none;
+}
+
+.descriptionBox{
+ color: #8A8A8A;
+}
+.priceDiscountBox{
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;;
+    font-size: 2.1em;
+    color: #065AB9;
+}
+.priceBox{
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;;
+    font-size: 3em;
+    color: #141214;
+}
+.showProducts a{
+    text-decoration: none;
+    color: #323234;
+    margin-right: 10px;
+    font-size: 1em;
+}
+.showProducts a:hover{
+    text-decoration: underline;
+    color: #8AB6EE;
+}
+.showProducts img{
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.showProducts h6{
+    margin-left: 15%;
+}
+h6{
+    margin-top: -10px;
+    color: #605C56;
+    font-size: 1em;
+}
+h5{
+    margin-top: -10px;
+    color: #0F63C1;
+    font-size: 1em;
+}

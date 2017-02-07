@@ -1,0 +1,133 @@
+/*Codificado por Diego Núñez*/
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+body{
+    margin: 0px;
+    font-size: 100%;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.header{
+    --border: solid 10px;
+    background-color: #F3F3F3;
+    width: 100%;
+    text-align: center;
+    margin-top: -15px;
+}
+.header ul li {
+    display: inline;
+    vertical-align: super;
+    padding-right: 10px;
+}
+.header ul li a:link {
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
+}
+#txtSearch{
+    background-image: url("../images/search.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #DADADA;
+    width: 100%;
+    height: auto;
+    border: none;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.menu{
+   --border: solid 10px;
+    background-color: #065AB9;
+    width: 100%;
+    text-align: center;
+    margin-top: -16px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    padding: 5px 10px 0px 15px;
+    --margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #DADADA;
+    font-weight: bold;
+    padding: 15px;
+}
+.menu ul li a:hover{
+    background-color: blue;
+    color: #DADADA;
+    cursor: pointer;
+    border-radius: 10px;
+}
+nav label{
+    display: none;
+}
+#menuBtn{
+    display: none;
+}
+.menu img{
+    --padding-right: 10px;
+}
+footer{
+    background-color: #333232;
+}
+.footerContent{
+    margin-left: 15%;
+    color: #FFFFFF;
+}
+.footerContent ul li{
+    list-style: none;
+    color: #6B7A7F;
+    margin-left: -17%;
+    font-size: .8em;
+}
+.last{
+    margin-top: 30%;
+}
+@media only screen and (max-width:480px){
+    #menuBtn:checked ~.menu{
+        margin: 0px;
+    }
+    .menu{
+        position: absolute;
+        margin-left: -900px;
+        background: #065AB9;
+        width: 90%;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #FFF;
+        padding: 20px;
+        width: 90%;
+        text-align: left;
+    }
+    .menu li a{
+        color: white;
+        width: 90%;
+        display: block;
+    }
+    nav label{
+        display: block;
+    }
+    .leftBox{
+        display: block;
+        border: none;
+    }
+    .rightBox{
+        display: block;
+        border: none;
+    }
+}
