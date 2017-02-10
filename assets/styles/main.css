@@ -138,4 +138,7 @@ footer{
         display: block;
         border: none;
     }
+    .products img{
+        width: 100%;
+    }
 }

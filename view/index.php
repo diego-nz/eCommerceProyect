@@ -34,7 +34,7 @@
         </div>--->
 
     <header>
-       <?php include("view/overAll/header.html"); ?>
+        <?php include( "view/overAll/header.html"); ?>
     </header>
 
     <div class="slider">
@@ -68,34 +68,24 @@
             LATEST PRODUCTS
             <hr/>
             <section>
+                <?php
+                    $array=array( "camera", "desktop", "laptop", "tablet");
+                    $random=rand(0,3);
+                    $random2=rand(1,6);
+                    for($i=1;$i<=12;$i++){
+                        $random=rand(0,3);
+                        $random2=rand(1,6);
+                ?>
                 <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src="assets/images/hp.jpg" alt="">
+                    <img src="assets/images/<?php echo $array[$random].$random2;?>.jpg" alt="">
                     <ul>
                         <li>Producto</li>
                         <li class="azul">$10,000.00</li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src="assets/images/hp.jpg" alt="">
-                    <ul>
-                        <li>Producto</li>
-                        <li class="azul">$10,000.00</li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src="assets/images/hp.jpg" alt="">
-                    <ul>
-                        <li>Producto</li>
-                        <li class="azul">$10,000.00</li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src="assets/images/hp.jpg" alt="">
-                    <ul>
-                        <li>Producto</li>
-                        <li class="azul">$10,000.00</li>
-                    </ul>
-                </div>
+                <?php
+                    }
+                ?>
             </section>
         </div>
     </div>
@@ -172,7 +162,7 @@
 
 
     <footer>
-        <?php include("view/overAll/footer.html"); ?>
+        <?php include( "view/overAll/footer.html"); ?>
     </footer>
 </body>
 

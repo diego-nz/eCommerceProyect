@@ -1,10 +1,14 @@
 .products{
-    display: block;
+    display: inline-block;
     margin-top: 8%;
     margin-left: 10%;
     margin-right: 10%;
     font-family: Verdana, sans-serif;
     font-weight: 600;
+}
+.products img{
+    width:  10%;
+    height: auto;
 }
 section{
     margin: 70px 0 0 0;
