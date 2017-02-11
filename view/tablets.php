@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Tablets</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="assets/styles/grid.css">
     <link rel="stylesheet" href="assets/styles/main.css">
@@ -17,13 +17,13 @@
     </header>
 
 
-     <div class="row">
+      <div class="row">
         <div class="products" style="margin-left:10%;margin-right:10%;">
             LATEST PRODUCTS
             <hr/>
             <section>
                <?php
-                    for($i=1;$i<=6;$i++){
+                    for($i=1;$i<=8;$i++){
 
                 ?>
                 <div class="col-lg-3 col-md-3 col-xs-12">

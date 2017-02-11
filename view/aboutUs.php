@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
@@ -15,7 +14,11 @@
     <header>
        <?php include("view/overAll/header.html"); ?>
     </header>
-
+    <section class="paragraph">
+        <h3>Mision: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quae quibusdam velit vero maiores, corrupti delectus ab laudantium quas ex cum ullam dicta, corporis perspiciatis. Minima magnam cupiditate eaque beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veritatis, quidem saepe incidunt velit odio esse aperiam nesciunt dolorem minima consectetur soluta distinctio doloribus, ducimus debitis beatae nam dignissimos illum.</h3>
+        <h3>Vision: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quae quibusdam velit vero maiores, corrupti delectus ab laudantium quas ex cum ullam dicta, corporis perspiciatis. Minima magnam cupiditate eaque beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veritatis, quidem saepe incidunt velit odio esse aperiam nesciunt dolorem minima consectetur soluta distinctio doloribus, ducimus debitis beatae nam dignissimos illum.</h3>
+        <h3>Valores: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quae quibusdam velit vero maiores, corrupti delectus ab laudantium quas ex cum ullam dicta, corporis perspiciatis. Minima magnam cupiditate eaque beatae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veritatis, quidem saepe incidunt velit odio esse aperiam nesciunt dolorem minima consectetur soluta distinctio doloribus, ducimus debitis beatae nam dignissimos illum.</h3>
+    </section>
     <footer>
         <?php include("view/overAll/footer.html"); ?>
     </footer>

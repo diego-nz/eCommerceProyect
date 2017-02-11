@@ -1,4 +1,4 @@
-<!---Codificado por Diego Núñez--->
+<!---Codificado por Diego Núñez Copyright--->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,26 +13,6 @@
 </head>
 
 <body>
-    <!---<div class="headerLeft">
-            <div class="row">
-                <div class="col-lg-3 col-md-2">
-                    Call us +48500-312-312
-                </div>
-                <div class="col-lg-9 col-md-10 headerRight">
-                    <nav class="nav1">
-                        <ul>
-                            <li><a href="#">Wish List</a></li>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Shopping Cart</a></li>
-                            <li><a href="#">Checkout</a></li>
-                            <li><a href="#">English US</a></li>
-                            <li><a href="#">Dollar</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>--->
-
     <header>
         <?php include( "view/overAll/header.html"); ?>
     </header>
@@ -69,11 +49,11 @@
             <hr/>
             <section>
                 <?php
-                    $array=array( "camera", "desktop", "laptop", "tablet");
+                    $array=array( "camera", "desktop", "laptop", "tablet","component");
                     $random=rand(0,3);
                     $random2=rand(1,6);
                     for($i=1;$i<=12;$i++){
-                        $random=rand(0,3);
+                        $random=rand(0,4);
                         $random2=rand(1,6);
                 ?>
                 <div class="col-lg-3 col-md-3 col-xs-12">
