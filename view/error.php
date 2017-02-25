@@ -15,6 +15,7 @@
     <header>
        <?php include("view/overAll/header.html"); ?>
     </header>
+
     <footer>
         <?php include("view/overAll/footer.html"); ?>
     </footer>

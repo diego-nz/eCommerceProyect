@@ -34,7 +34,7 @@
                 echo "Gracias en breve un representante de ventas se pondrá en contacto";
                 }else{
                 ?>
-                <form action="contacto.php" method="POST">
+                <form action="contactUs.php" method="POST">
                     <label for="txtNombre">Nombre</label>
                     <input type="text" required name="txtNombre" id="txtNombre" class="caja">
                     <label for="txtTel">Telefono</label>

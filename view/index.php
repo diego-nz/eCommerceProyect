@@ -57,7 +57,7 @@
                         $random2=rand(1,6);
                 ?>
                 <div class="col-lg-3 col-md-3 col-xs-12">
-                    <img src="assets/images/<?php echo $array[$random].$random2;?>.jpg" alt="">
+                    <a href="?view=showProduct&article=<?php echo $random2?>&category=<?php echo $array[$random]?>"><img src="assets/images/<?php echo $array[$random].$random2;?>.jpg" alt=""></a>
                     <ul>
                         <li>Producto</li>
                         <li class="azul">$10,000.00</li>

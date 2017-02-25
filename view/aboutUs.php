@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header>
        <?php include("view/overAll/header.html"); ?>
     </header>
